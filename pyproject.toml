@@ -1,0 +1,19 @@
+[project]
+name = "example-strawberry-lazy"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Patrick Arminio", email = "patrick.arminio@gmail.com"},
+]
+dependencies = [
+    "strawberry-graphql>=0.219.1",
+    "rich>=13.7.0",
+    "libcst>=1.1.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
